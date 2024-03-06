@@ -16,28 +16,59 @@
 
 // lesson 2 
 
-// var age = prompt("Write your age and I will answer our age difference");
-// var num;
+// var age = parseInt(prompt("Write your age and I will answer our age difference"));
+
 
 // if (age > 22) {
-//     num = age - 22;
-//     // alert(num)
-//     document.getElementById("myh").textContent = `You are older than me by ${num} years`;
-// } else if (age < 22) {
-
+//     var h1 = document.getElementById("myH")
+//     h1.innerText = ``
+//     var num;
+//     num = age - 22; 
+//     h1.innerText = `You are older than me by ${num} years`; 
+// } 
+// else if (age < 22) {
+//     var h1 = document.getElementById("myH")
+    
+//     var num;
 //     num = 22 - age;
-//     document.getElementById("myH").textContent = `You are younger than me by ${num} years`;
+//     h1 = `You are younger than me by ${num} years`;
 // }
 
-// console.log(age, num);
+
 
 // lesson 3 
 
-var num = prompt(`write number`)
+// var num = prompt(`write number`)
 
-if (num == 2 || num == 4 || num == 6 || num == 8) {
-    document.getElementById("myH").textContent = `${num} is an even number`
+// if (num == 2 || num == 4 || num == 6 || num == 8) {
+//     document.getElementById("myH").textContent = `${num} is an even number`
     
-}else if(num == 1 || num == 3 || num == 5 || num == 7 || num == 9){
-    document.getElementById("myH").textContent = `${num} number is odd`
-}
+// }else if(num == 1 || num == 3 || num == 5 || num == 7 || num == 9){
+//     document.getElementById("myH").textContent = `${num} number is odd`
+// }
+
+
+// ders Array
+
+// var name = prompt(`Write Your Favorite Cars Brand`)
+
+// var list = [`BMW`, `Mercedes`, `Lada`, `Toyota`, `Leksus`, `Opel`]
+
+// var size = list.length
+
+// if (list.length < 7) {
+//     var push = list.push("Mandaroz")
+// if (list.length < 6) {
+//     const lis = list.slice (4)
+// }
+
+// console.log(list);
+
+// console.log(`You choose ${list[2]} marka cars`);
+// document.getElementById(`myH`).textContent = `Rufet bele bacarirsan?`
+
+// if (list.indexOf(name) === -1) {
+//     console.log(`No data`)
+// }else {
+//     console.log(`Data`);
+// }
